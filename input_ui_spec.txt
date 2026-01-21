@@ -1,0 +1,26 @@
+App Name: Personal Finance Dashboard
+
+Pages / Sections:
+- Overview
+- Transactions
+
+Features:
+- Add income or expense transactions
+- Each transaction includes:
+  - Date
+  - Amount
+  - Category
+  - Type (Income / Expense)
+- Overview shows:
+  - Total income
+  - Total expenses
+  - Current balance
+
+Behavior:
+- Overview values update automatically when transactions change
+- Transactions sorted by date (latest first)
+
+Constraints:
+- No persistence
+- No charts (numbers only)
+- No authentication
