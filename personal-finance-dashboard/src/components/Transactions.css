@@ -1,0 +1,148 @@
+.transactions {
+  padding: 10px 0;
+}
+
+.transactions-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.no-transactions {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  color: #6c757d;
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.transaction-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transaction-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.transaction-indicator {
+  width: 4px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.transaction-item.income .transaction-indicator {
+  background: linear-gradient(180deg, #28a745 0%, #20c997 100%);
+}
+
+.transaction-item.expense .transaction-indicator {
+  background: linear-gradient(180deg, #dc3545 0%, #fd7e14 100%);
+}
+
+.transaction-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.transaction-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.transaction-category {
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.transaction-date {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.transaction-type-badge {
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.transaction-item.income .transaction-type-badge {
+  background: rgba(40, 167, 69, 0.15);
+  color: #28a745;
+}
+
+.transaction-item.expense .transaction-type-badge {
+  background: rgba(220, 53, 69, 0.15);
+  color: #dc3545;
+}
+
+.transaction-amount {
+  font-size: 1.1rem;
+  font-weight: 700;
+  min-width: 120px;
+  text-align: right;
+}
+
+.transaction-amount .positive {
+  color: #28a745;
+}
+
+.transaction-amount .negative {
+  color: #dc3545;
+}
+
+.delete-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  color: #adb5bd;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: rgba(220, 53, 69, 0.1);
+  color: #dc3545;
+}
+
+@media (max-width: 500px) {
+  .transaction-item {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .transaction-amount {
+    min-width: auto;
+    order: 3;
+    flex: 1;
+  }
+  
+  .delete-btn {
+    order: 4;
+  }
+}

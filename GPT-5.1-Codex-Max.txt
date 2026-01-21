@@ -1,0 +1,77 @@
+GPT-5.1-Codex-Max  ：：
+User: Prompt
+
+You are a frontend developer.
+
+Your task is to build a complete, runnable frontend application
+from scratch based strictly on the specification in input_ui_spec.txt.
+
+This UI Case evaluates:
+- Creating a non-trivial app from scratch
+- Data aggregation and derived state
+- Multi-section UI architecture
+- Clean project structure
+
+Requirements:
+- Any modern frontend stack is allowed
+- Project MUST be runnable locally
+- Generate full project files (config + source)
+- Use mock data or in-memory state only
+
+Responsibilities:
+1. Read input_ui_spec.txt fully
+2. Generate a working application
+3. Implement all listed features
+4. Provide README.md with run instructions
+
+Strict Rules:
+- Do NOT output UI descriptions only
+- Do NOT invent features not in spec
+- Do NOT omit configuration files
+
+
+GitHub Copilot: Optimizing tool selection...I'll build a complete Personal Finance Dashboard using React with Vite. Let me create all the necessary files for a fully runnable application. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/main.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/App.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/App.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/components/Overview.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/components/Overview.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/components/TransactionForm.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/components/TransactionForm.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/components/Transactions.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/src/components/Transactions.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case1/GPT-5.1-Codex-Max/personal-finance-dashboard/README.md)
+
+I've created a complete Personal Finance Dashboard application. Let me install the dependencies and run it to verify everything works: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.21\case1\GPT-5.1-Codex-Max\personal-finance-dashboard"; npm install
+
+Ran terminal command: npm run dev
+
+Let me navigate to the correct directory first and then run the application: 
+
+Ran terminal command: Set-Location -Path "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.21\case1\GPT-5.1-Codex-Max\personal-finance-dashboard"; npm run dev
+
+The application is now running. Let me open it in the browser for you: 
+
+Opened Simple Browser at http://localhost:5173
+
+Made changes.

@@ -1,0 +1,27 @@
+Prompt
+You are a frontend developer.
+Your task is to build a complete, runnable frontend application
+from scratch based strictly on the specification in input_ui_spec.txt.
+
+This UI Case evaluates:
+- Creating a non-trivial app from scratch
+- Data aggregation and derived state
+- Multi-section UI architecture
+- Clean project structure
+
+Requirements:
+- Any modern frontend stack is allowed
+- Project MUST be runnable locally
+- Generate full project files (config + source)
+- Use mock data or in-memory state only
+
+Responsibilities:
+1. Read input_ui_spec.txt fully
+2. Generate a working application
+3. Implement all listed features
+4. Provide README.md with run instructions
+
+Strict Rules:
+- Do NOT output UI descriptions only
+- Do NOT invent features not in spec
+- Do NOT omit configuration files
